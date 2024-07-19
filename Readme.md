@@ -68,7 +68,7 @@ sudo dpkg -i ssh-mirror.deb
 ```
 ## Config
 
-You must configure your ssh accesses in `~/ssh-mirror-config.json` following the example:
+You must configure your ssh accesses in `~/.ssh-mirror-config.json` following the example:
 ```
 {
     "dev" : {

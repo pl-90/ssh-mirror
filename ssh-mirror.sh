@@ -7,11 +7,11 @@ if [ "$#" -ne 1 ]; then
 fi
 
 ENVIRONMENT="$1"
-CONFIG_FILE="$HOME/ssh-mirror-config.json"
+CONFIG_FILE="$HOME/.ssh-mirror-config.json"
 
 # Check if the config.json file exists
 if [[ ! -f "$CONFIG_FILE" ]]; then
-  echo "File "~/ssh-mirror-config.json" not found!"
+  echo "File "~/.ssh-mirror-config.json" not found!"
   exit 1
 fi
 
