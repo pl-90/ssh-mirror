@@ -1,0 +1,9 @@
+Package: ssh-mirror
+Version: 1.0
+Section: base
+Priority: optional
+Architecture: all
+Depends: bash, jq
+Maintainer: pl-90
+Description: Script to mirror files via SSH
+ This package contains a script to establish an SSH tunnel and synchronize files.
