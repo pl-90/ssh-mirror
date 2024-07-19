@@ -87,3 +87,8 @@ You must configure your ssh accesses in `~/ssh-mirror-config.json` following the
 }
 ```
 The format of the ports: ```local:remote```
+
+## Executing
+```
+ssh-mirror <your-config>
+```
